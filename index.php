@@ -80,13 +80,14 @@
 
     $provisionedActivites = array("Specs", "Mugs", "Sausage Rolls");
 
+    $provisionedActivities[1] = "hugs";
+
+    unset($provisionedActivities[2]);
+
     foreach($provisionedActivites as $x){
 
-        $x[1] = "hugs";
 
-        unset($x[2]);
-
-        print $x[1];
+        print $x[0];
     }
     ?>
 

@@ -21,6 +21,7 @@
 //    }
     $name = "Nick";
     $age = 17;
+    print $name;
 
     if ($age > 21){
         print "You can buy specs, mugs AND sausage rolls";

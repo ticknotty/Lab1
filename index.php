@@ -78,9 +78,15 @@
 
 //    unset($myArray[2]); //removes the array in position 2 "mi"
 
-    $provisionedActivites = array("Specs", "Drugs", "Rock & Roll");
+    $provisionedActivites = array("Specs", "Mugs", "Sausage Rolls");
 
     foreach($provisionedActivites as $x){
+        print "<p>$x</p>";
+
+        $x[1] = "hugs";
+
+        unset($x[2]);
+
         print "<p>$x</p>";
     }
     ?>

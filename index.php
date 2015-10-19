@@ -26,12 +26,15 @@
         print $name . ", you can buy specs, mugs AND sausage rolls.";
     }
 
-    if ($age >= 18 && $age < 21){
+    else if ($age >= 18 && $age < 21){
         print $name . ", you can buy specs and mugs.";
     }
 
-    if ($age >= 16 && $age < 18){
+    else if ($age >= 16 && $age < 18){
         print $name . ", you can only buy specs.";
+    }
+    else {
+        print $name . ", you are not allowed to buy specs, mugs or SAUSAGE ROLLS";
     }
     ?>
 

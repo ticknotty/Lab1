@@ -8,8 +8,8 @@
 //    echo "Hello, world ";
 //    echo "Hello," . " " . "world" . "!";
 //    echo 5 * 7;
-    $myname = "Frodo Baggins";
-    $myage = 111;
+    $myname = "Luke Gill";
+    $myage = "gay";
     echo "My name is " . $myname . " and I am " . $myage . ".";
     ?>
 

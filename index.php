@@ -20,7 +20,7 @@
 //        print "Who are you?";
 //    }
     $name = "Nick";
-    $age = 17;
+    $age = 22;
     print $name;
 
     if ($age > 21){

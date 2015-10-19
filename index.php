@@ -81,13 +81,12 @@
     $provisionedActivites = array("Specs", "Mugs", "Sausage Rolls");
 
     foreach($provisionedActivites as $x){
-        print "<p>$x</p>";
 
         $x[1] = "hugs";
 
         unset($x[2]);
 
-        print "<p>$x[1]</p>";
+        print $x[1];
     }
     ?>
 

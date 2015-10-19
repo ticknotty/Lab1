@@ -37,7 +37,7 @@
 //        print $name . ", you are not allowed to buy specs, mugs or SAUSAGE ROLLS.";
 //    }
 
-    $numberOfHobbits = 2;
+    $numberOfHobbits = 4;
 
     switch ($numberOfHobbits){
         case 1:

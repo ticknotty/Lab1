@@ -87,7 +87,7 @@
 
         unset($x[2]);
 
-        print "<p>$x[0]</p>";
+        print "<p>$x[1]</p>";
     }
     ?>
 

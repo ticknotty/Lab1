@@ -86,8 +86,7 @@
 
     foreach($provisionedActivites as $x){
 
-
-        print $x[0];
+        echo $x[0];
     }
     ?>
 

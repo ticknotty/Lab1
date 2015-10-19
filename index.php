@@ -52,6 +52,22 @@
         default:
             echo "All the hobbits have gone home";
     }
+
+    $wantedgood = "mugs";
+
+    switch ($wantedgood){
+        case "sausage":
+            echo "You have to be 21 to buy sausage rolls.";
+            break;
+        case "mugs":
+            echo "You have to be 18 to buy mugs.";
+            break;
+        case "specs":
+            echo "You have to be 16 to buy specs.";
+            break;
+        default:
+            echo "No other age restrictions apply";
+    }
     ?>
 
 

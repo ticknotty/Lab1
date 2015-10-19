@@ -37,37 +37,46 @@
 //        print $name . ", you are not allowed to buy specs, mugs or SAUSAGE ROLLS.";
 //    }
 
-    $numberOfHobbits = 1;
+//    $numberOfHobbits = 1;
 
-    switch ($numberOfHobbits){
-        case 1:
-            echo "1 sad hobbit";
-            break;
-        case 2:
-            echo "2 happy hobbits";
-            break;
-        case 3:
-            echo "3 hobbits are a crowd";
-            break;
-        default:
-            echo "All the hobbits have gone home";
-    }
+//    switch ($numberOfHobbits){
+//        case 1:
+//           echo "1 sad hobbit";
+//            break;
+//        case 2:
+//            echo "2 happy hobbits";
+//            break;
+//        case 3:
+//            echo "3 hobbits are a crowd";
+//            break;
+//        default:
+//            echo "All the hobbits have gone home";
+//    }
 
-    $wantedgood = "sausage";
+//    $wantedgood = "sausage";
 
-    switch ($wantedgood){
-        case "sausage":
-            echo "You have to be 21 to buy sausage rolls.";
-            break;
-        case "mugs":
-            echo "You have to be 18 to buy mugs.";
-            break;
-        case "specs":
-            echo "You have to be 16 to buy specs.";
-            break;
-        default:
-            echo "No other age restrictions apply";
-    }
+ //   switch ($wantedgood){
+//            echo "You have to be 21 to buy sausage rolls.";
+//            break;
+//        case "mugs":
+//            echo "You have to be 18 to buy mugs.";
+//            break;
+//        case "specs":
+//            echo "You have to be 16 to buy specs.";
+//            break;
+//        default:
+//            echo "No other age restrictions apply";
+//    }
+
+    $myArray = array("do", "re", "mi"); //declares the array
+
+    echo $myArray[0] // outputs "do"
+
+//    $myArray[1] = "la"; // modifies position 1 (re)
+
+//    echo $myArray[1] // outputs "la"
+
+//    unset($array[2]); //removes the array in position 2 "mi"
     ?>
 
 

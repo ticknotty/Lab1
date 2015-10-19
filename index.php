@@ -53,7 +53,7 @@
             echo "All the hobbits have gone home";
     }
 
-    $wantedgood = "mugs";
+    $wantedgood = "sausage";
 
     switch ($wantedgood){
         case "sausage":

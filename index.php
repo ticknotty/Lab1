@@ -72,7 +72,7 @@
 
     echo $myArray[0]; // outputs "do"
 
-    $myArray[1] = "la"; // modifies position 1 (re)
+//    $myArray[1] = "la"; // modifies position 1 (re)
 
     echo $myArray[1]; // outputs "la"
 

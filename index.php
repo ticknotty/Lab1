@@ -11,13 +11,27 @@
 //    $myname = "Frodo Baggins";
 //    $myage = 111;
 //    echo "My name is " . $myname . " and I am " . $myage . ".";
-    $name = "Simon";
+//    $name = "Simon";
 
-    if ($name == "Simon"){
-        print "I know you!";
+//    if ($name == "Simon"){
+//        print "I know you!";
+//    }
+//    else {
+//        print "Who are you?";
+//    }
+    $name = "Nick";
+    $age = 17;
+
+    if ($age > 21){
+        print "You can buy specs, mugs AND sausage rolls";
     }
-    else {
-        print "Who are you?";
+
+    if ($age >= 18 && $age < 21){
+        print "You can buy specs and mugs";
+    }
+
+    if ($age >= 16 && $age < 18){
+        print "You can only buy specs m8";
     }
     ?>
 

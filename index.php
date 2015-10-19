@@ -24,15 +24,15 @@
     print $name;
 
     if ($age > 21){
-        print "You can buy specs, mugs AND sausage rolls";
+        print ", you can buy specs, mugs AND sausage rolls";
     }
 
     if ($age >= 18 && $age < 21){
-        print "You can buy specs and mugs";
+        print ", you can buy specs and mugs";
     }
 
     if ($age >= 16 && $age < 18){
-        print "You can only buy specs m8";
+        print ", you can only buy specs m8";
     }
     ?>
 
